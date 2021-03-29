@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath="Gamal-Mohamed/MLMA"
+dockerpath="Gamal-Mohamed/mlma"
 
 
 # Step 2:
