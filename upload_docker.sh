@@ -6,14 +6,15 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath="gamalmohamed/udaproimage"
+dockerpath="gamalmohamed/new-repo"
 
 
 # Step 2:
 # Authenticate & tag
 #echo "Docker ID and Image: $dockerpath"
-docker tag udaproimage:latest $dockerpath:udaproimage
 docker login --username gamalmohamed
+docker tag udaproimage:latest gamalmohamed/new-repo:firstpush
+
 # Step 3:
 # Push image to a docker repository
-docker push $dockerpath:udaproimage
+docker push gamalmohamed/new-repo:firstpush
