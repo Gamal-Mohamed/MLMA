@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+
 [![CircleCI](https://circleci.com/gh/Gamal-Mohamed/MLMA.svg?style=svg&circle-token=<YOUR_STATUS_API_TOKEN>)](https://circleci.com/)
 
 ## Project Overview
